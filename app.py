@@ -4,9 +4,7 @@ from fpdf import FPDF
 from flask import Flask,request,render_template
 
 
-API_KEY = '4640358e63mshe491be0ab6285f0p194ce6jsnae2a0d6e879e'
-API_HOST = 'currency-converter5.p.rapidapi.com'
-API_URL = 'https://currency-converter5.p.rapidapi.com/currency/convert'
+
 
 app = Flask(__name__)
 @app.route('/')
