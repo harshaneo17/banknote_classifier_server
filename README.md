@@ -4,3 +4,5 @@ This repository contains code to train a classifier using sci-kit learn and csv 
 
 
 This API is implemented using flask
+
+The API was tested on POSTMAN 
