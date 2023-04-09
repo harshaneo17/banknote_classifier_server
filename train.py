@@ -5,7 +5,7 @@ from sklearn.model_selection import train_test_split
 import pickle
 
 # Load the csv file
-df = pd.read_csv("/content/BankNote_Authentication.csv")
+df = pd.read_csv("BankNote_Authentication.csv")
 
 print(df.head())
 
@@ -28,4 +28,4 @@ classifier = RandomForestClassifier()
 classifier.fit(X_train, y_train)
 
 # Make pickle file of our model
-pickle.dump(classifier, open("model.pkl", "wb"))
+pickle.dump(classifier, open("banknotesmodel.pkl", "wb"))
